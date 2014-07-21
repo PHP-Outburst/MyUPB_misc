@@ -1,3 +1,3 @@
-W instalerze jest info o starej wersji STAREJ!!!!
-autousuwanie updejtów tak zwanych i instalatora może?
-Bugfixy i łatki wszekliego rodzaju
+W instalatorze jest info o wersji STAREJ!!!!
+Może dodać auto usuwanie update*.php oraz install.php?
+Bugfixy i łatki wszelkiego rodzaju
