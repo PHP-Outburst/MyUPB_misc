@@ -1,3 +1,10 @@
 W instalatorze jest info o wersji STAREJ!!!!
 Może dodać auto usuwanie update*.php oraz install.php?
 Bugfixy i łatki wszelkiego rodzaju
+
+
+Tłumaczenia (czyli co w folderze, dajmy na to, /pl)
+	main.xml // tłumaczenia
+	badwords.xml //do listy złych słów, pewnie się przyda
+	privacy.xml //dla pliku privacy.php, nie wiem czy to dobry pomysł, ale trzeba dać możliwość edycji tekstu privacy.php przez panel kontrolny
+	
