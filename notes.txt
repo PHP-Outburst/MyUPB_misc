@@ -1,0 +1,24 @@
+﻿W instalatorze jest info o wersji STAREJ! - potem przy oficjalnym wydaniu się pozmienia, ważniejszy aktualizator
+
+Może dodać auto usuwanie update*.php oraz install.php? W install_complete?
+
+Tłumaczenia (czyli co w folderze, dajmy na to, /pl)
+	main.xml // tłumaczenia
+	badwords.xml //do listy złych słów, pewnie się przyda
+	privacy.xml //dla pliku privacy.php, nie wiem czy to dobry pomysł, ale trzeba dać możliwość edycji tekstu privacy.php przez panel kontrolny
+
+
+komentarze w plikach wskazują na tdb 4.4.1 (install.php)
+
+
+aktualizator (matko, tylko nie to):
+- twitter i to co Clark dał
+- minki (img zamknąć)
+- funkcja sprawdzająca ile plików i które dodać do aktualizacji
+
+Function get_updates() in update.php is somehow broken (or not?):
+when current version is eg. 2.2.7 you need to have
+update2_2_5.php, update2_2_6.php, update2_2_7.php files,
+if there are some files missing, eg.
+update2_2_5.php, update2_2_7.php,
+function get_updates() returns very odd results.
